@@ -286,7 +286,6 @@ def gbif_client(row):
     st.table(gb_df)
     st.write("Similar Images")
     urls, titles = gb.get_similar_images()
-    st.write(urls, titles)
     if len(urls) > 0 and len(titles) > 0:
         plot_grid(titles, urls)
     else:
