@@ -1,0 +1,17 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+streamlit==1.10.0
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python-headless
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+torch==1.8.0+cpu 
+torchvision==0.9.0+cpu
+tqdm>=4.41.0
+pandas>=1.1.4
+seaborn>=0.11.0
+plotly==5.8.0
+./pygbif/dist/pygbif-0.6.0-py2.py3-none-any.whl
+wolframclient
